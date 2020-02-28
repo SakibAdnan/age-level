@@ -48,3 +48,14 @@ h4#result {
     font-weight: 700;
     transition: .4s;
 }
+button#btn {
+    background-color: orange;
+    border: none;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
