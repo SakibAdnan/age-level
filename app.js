@@ -3,7 +3,7 @@ var result = document.querySelector('#result');
 
 age.addEventListener("keypress", function(){
     var ageValue = age.value;
-    if( ageValue  <  11){
+    if( ageValue >= 1 && ageValue  <  11){
         result.innerHTML = `You Are Children`;
     }
     else if(ageValue  < 20){
